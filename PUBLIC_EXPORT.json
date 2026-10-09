@@ -1,0 +1,101 @@
+{
+  "schema": "public-export/v1",
+  "plan_id": "pd-20261009-project-inventory-naming-github-publication",
+  "upstream_project": "voice-idea-curation",
+  "upstream_commit": "db7fec1cd23d841a19b44be80a0ca0af1a45bbd5",
+  "source_files": [
+    {
+      "path": ".agents/skills/voice-idea-curation/SKILL.md",
+      "source_sha256": "65ac574ce98196899a57156f95dafc86d61798872c7fe3a95d79817c9e767f94"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/agents/openai.yaml",
+      "source_sha256": "590feb98bc8e2c1b91068868b915c75fcccff9c80025bbea2cdd3d5ef565cd41"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/references/batch-record.md",
+      "source_sha256": "b61642219599fa013239c80ccb10007c2c40588f39f6dbf96d4a492d89821437"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/references/local-recognition.md",
+      "source_sha256": "a43e4ea6c3af6768070c73769e5c619a132eca952ed5400f9a679afbb380b8fa"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/references/project-interface.md",
+      "source_sha256": "6ad4c87dd0ba1550bbc998846eedccb07af9d13b7c9dd9ec1c8eb76806823521"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/references/rule-routing.md",
+      "source_sha256": "cf868138bfab79b87411802b92cae0834d7d92331405f6ed61d4e0a4151e145f"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/scripts/asr_support.py",
+      "source_sha256": "cdba5decdca530e8cee50d830cfe5c963bdbae57a7b83a13eaa16b7c640559eb"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/scripts/bootstrap_local_asr.py",
+      "source_sha256": "b72ada5332e03c0667cbba7c94f473c601fbce5ad1812a379140bf3e8a1d3ada"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/scripts/create_batch.py",
+      "source_sha256": "5f835e29c51fe9776899467b4db5d6357be4819f59aef001da7d14ce1bb8acf6"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/scripts/evaluate_asr.py",
+      "source_sha256": "911f7b6e6b71adb7745ec2153cb325b6ae2b65efa62b3a5514e49586a8c6f07a"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/scripts/local_asr.py",
+      "source_sha256": "a2e8313e32c326d9fbead7463733ad683911e40860cfab981173793a529d3dd2"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/scripts/personalize_asr.py",
+      "source_sha256": "b191a94d54ec198c3780628967ac3328601a38a42016d4f98a2ba66324b010ad"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/scripts/prepare_review.py",
+      "source_sha256": "0ce3b941d0819ad9f66316876aeb70066e964b9e7dde8a329dce3bf9a58e460f"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/scripts/scan_and_transcribe.py",
+      "source_sha256": "5452d47d445f3a0f76abf093ff8ec7351fa263aef0256a8913f9c652ad528800"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/scripts/test_life_intake.py",
+      "source_sha256": "5200969e2b2015774b8e36b74975ea60df1179ea23dd60423012e906ab511423"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/scripts/test_local_workflow.py",
+      "source_sha256": "3e7056d436edd5ca2ad4ddd151f7f440c491556879d5b219ea9bca03ccac7784"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/scripts/test_rule_routing.py",
+      "source_sha256": "737fa8b7b3608eacead04e2aca11b13639eda37d3bef661cf7284f0c06287323"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/scripts/test_scan_and_transcribe.py",
+      "source_sha256": "b1c0b12ed14bdbf43e7d18eb20d5ccf95f1688fd6d5010886fdb3f9499e0ff5c"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/scripts/verify_recording.py",
+      "source_sha256": "47da6aa1a3a3e980804946dcb5bccd7fc9ef150e44f116e239e989b6e1972ade"
+    },
+    {
+      "path": ".agents/skills/voice-idea-curation/scripts/voice_inbox.py",
+      "source_sha256": "cd99cc64c5d6bb520bcd7fc2402d3ee75e264f6c2f2fbacdb5702126eaae070e"
+    }
+  ],
+  "adaptations": [
+    {
+      "path": "README.md",
+      "kind": "public-description",
+      "reason": "Self-contained public setup; private project references excluded"
+    },
+    {
+      "path": ".gitignore",
+      "kind": "generated",
+      "reason": "Keep private/runtime outputs out of version control"
+    }
+  ],
+  "scope": "Reusable source, synthetic contracts and tests only; original history and private workspaces excluded"
+}

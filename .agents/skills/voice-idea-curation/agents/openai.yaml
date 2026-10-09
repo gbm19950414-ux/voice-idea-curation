@@ -1,0 +1,4 @@
+interface:
+  display_name: "Voice Idea Curation"
+  short_description: "Review recordings into project-ready idea handoffs"
+  default_prompt: "Use $voice-idea-curation to process these recordings through review and project handoff."
